@@ -1,0 +1,13 @@
+ul.ul-nav:first-child a:link{
+    color: burlywood;
+}
+
+ul.ul-nav:nth-child(1) a:visited{
+    color: burlywood;
+}
+
+footer{
+    background-color: black;
+    margin: 0;
+    color: crimson;
+}

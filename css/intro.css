@@ -1,0 +1,96 @@
+.pic-spark{
+    width: 200px;
+    height: 200px;
+}
+
+.intro-image{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+}
+
+body{
+    line-height: 1.8;
+    color: rgb(226, 67, 67);
+    background-color: black;
+}
+
+p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.margin{
+    margin-bottom: 45;
+}
+
+.container, .enter-container{
+    background-color: black;
+    color: rgb(212, 61, 61);
+}
+
+.info-container, .footer-container{
+    background-color: rgb(212, 61, 61);
+    color: black;
+}
+
+.container-padding{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.long-bar-right{
+    float: right
+}
+.long-bar-right> li{
+    float: left;
+}
+
+
+.long-bar-right li, .long-bar-lef a:hover{
+    color: blanchedalmond;
+}
+.long-bar-right li a:link, :visited{
+    color: brown;
+    font-weight: bold;
+}
+
+.long-bar-left a:link, :visited{
+    color: brown;
+    font-weight: bold;
+}
+.long-bar-right>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.text-center{
+    text-align: center;
+}
+ul{
+    display: block;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.enter-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rowbox{
+    width: 25%;
+    float: left;
+    position: relative;
+}

@@ -1,0 +1,33 @@
+.body{
+    height: 1600px;
+}
+
+div.header{
+    padding: 10px 20px;
+    background-color: black;
+}
+.header>h2{float:left;}
+.header>nav{float: right;}
+
+.ul-nav{
+    list-style: none;
+    
+}
+.ul-nav>li{
+    float: left;
+}
+.ul-nav>li>a{
+padding: 10px 15px;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+a:link{
+    color: brown;
+}
+
+a:visited{
+    color: crimson;
+}
