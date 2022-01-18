@@ -5,3 +5,23 @@ a:link{
 a:visited{
     color: burlywood;
 }
+
+table.pic-table{
+    width: 100em;
+    /* 왜 아래 3개는 적용이 안되는 것인가 하.. */
+    height: 100%;  
+    border: 2px seagreen;
+    align-items: center;
+}
+
+/* .info-pic{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+} */
+
+.file1, .file2, .file3, .file4{
+    color: sienna;
+    height: 40%;
+    width: 50%;
+}
