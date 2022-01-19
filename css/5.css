@@ -1,7 +1,47 @@
-a:link{
-    color: burlywood;
+h1{
+    color: #D92528;
+    margin: 15px auto;
+    text-align: center;
 }
 
-a:visited{
-    color: burlywood;
+.center{
+    margin: 20px auto;
+    padding: 20px;
+}
+.welcome{
+
+    
+    text-align: center;
+    width: 100%;
+}
+.agree{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.agreeagree{
+    text-align: start;
+}
+
+h3{
+    text-align: center;
+    background-color: #d925285b;
+    width: 30%;
+    margin: 10px auto;
+}
+#ments{
+    width: 100%;
+    height: 100px;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+    border-radius: 0.5em;
+}
+
+#path{
+    width: 30%;
+    text-align: center;
+    padding: 5%;
 }

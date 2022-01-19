@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="../js/js1.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +20,82 @@
                 <li><a href="../html/page2.html">아이디어</a></li>
                 <li><a href="../html/page3.html">감상</a></li>
                 <li><a href="../html/page4.html">사진</a></li>
-                <li style="background-color: brown; color: black;"><a href="../html/page5.html">etc</a></li>
+                <li style="background-color: brown; color: black;"><a href="../html/page5.html">정식으로 가입하기</a></li>
             </ul>
         </nav>
     </div>
 
+
+    <h1>WELCOME</h1>
+    <table class="welcome center" >
+        <tr>
+            <td><h3>환영합니다 :)</h3>
+                <h4> 가입을 하러 오셨군요! <br>
+                빠르게 작성을 샤샤삭 해주시면, <br>
+                다음 과정으로 넘어갈 수 있습니다.</h4>
+            </td>
+        </tr>
+    </table>
+</div> 
+<hr>
+<div>
+    <form name="frm5" method="post" action="page-intro.html" onsubmit="return Check_onclick()">
+        <table class="agree center"  >
+            <tr>
+                <td><textarea id="ments">안녕하세요:) 해당 사이트는 kita 디지털 마스터에서 하는 첫 FRONT-END 과정의 실습페이지입니다. 많은 시행착오가 생길 것이지만 제가 혼자 만든거라니! 너무 설레이지 않나요? 우리 모두 천천히 하나하나 같이 해봅시다. 동의하시나요?
+                </textarea></td>
+            </tr>
+            <tr>
+                <td class="agreeagree">
+                <input type="checkbox" name="m5m1" value="11"> 가입에 동의하십니까?(필수)<br>
+                <input type="checkbox" name="m5m2" value="22"> 위치 정보 제공에 동의하십니까?(필수)<br>
+                <input type="checkbox" name="m5m3" value="11"> 프로모션 정보수신 동의(선택)?<br>
+                </td>
+            </tr>
+            <tr><td>
+                좋아하는 색<input type="color" name="m5m4" value="color"><br>
+                </td>
+            </tr>
+        <tr><td><input type="submit" value="다음"></td></tr>
+    </table>
+    <hr>
+    <table class="center" >
+        <tr><td>아이디 </td><td> <input name="m5m5" type="text" id="id"><br></td></tr>
+        <tr><td>비밀번호 </td><td> <input name="m5m6" type="password" id="pw"><br></td></tr>
+        <tr><td>비밀번호 재확인  </td><td> <input name="m5m7" type="password" id="pw2"><br></td></tr>
+    </table>
+<hr>
+    <table class= "center"  >
+        <tr><td>이름 </td><td>  <input type="text" name="m5m8" value="name"><br></td>
+        <tr><td>이메일 </td><td> <input type="email" name="m5m9" value="email"><br></td></tr>
+        <tr><td>생년월일 </td><td> <input type="date"><br></td></tr>
+        <tr><td>성별 </td><td> <input type="radio" name="gender" value="woman"> woman
+                <input type="radio" name="gender" value="man"> man <br></td></tr>
+        <tr><td>전화번호 </td><td><input type="tel"><br></td></tr>
+        <tr><td>
+        통신사 </td><td><input type="radio" name="call" value="kt"> kt
+                <input type="radio" name="call" value="skt"> skt
+                <input type="radio" name="call" value="lg"> lg</td></tr>
+        <tr><td>
+        유입경로 :
+                <select name="where" multiple>
+                    <option>지인추천</option>
+                    <option>sns</option>
+                    <option>광고</option>
+                    <option>전단지</option>
+                    <option>etc</option>
+                </select><br></td></tr>
+    </table>
+<hr>
+    
+<hr>
+      
+    <table class="center">
+        <tr><td><input type="reset" value="다시">
+        <input type="submit" value="가입"></td></tr>
+    </table>
+</form>
+</div>
 
 
 

@@ -1,17 +1,12 @@
-a:link{
-    color: burlywood;
-}
 
-a:visited{
-    color: burlywood;
-}
 
 table.pic-table{
-    width: 100em;
+
     /* 왜 아래 3개는 적용이 안되는 것인가 하.. */
     height: 100%;  
     border: 2px seagreen;
     align-items: center;
+    text-align: center;
 }
 
 /* .info-pic{
@@ -24,4 +19,10 @@ table.pic-table{
     color: sienna;
     height: 40%;
     width: 50%;
+}
+
+.main>table{
+        margin: 20px auto;
+        padding: 20px;
+
 }

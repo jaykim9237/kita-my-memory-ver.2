@@ -1,9 +1,42 @@
 body{
     background-color: black;
     color: crimson;
+   
 }
 
-input, textarea, h2{
+input, textarea, h2, select{
     background-color: rgba(0, 0, 0, 0.171);
     color: crimson;
+}
+
+.main, .footer-container{
+    text-align: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.main>table{
+    display: block;
+}
+
+hr{
+    border: 1px solid crimson;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: crimson;
+}
+
+.title-1{
+    background-color: transparent;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
 }

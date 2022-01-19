@@ -1,10 +1,4 @@
-ul.ul-nav:first-child a:link{
-    color: burlywood;
-}
 
-ul.ul-nav:nth-child(1) a:visited{
-    color: burlywood;
-}
 
 footer{
     background-color: black;
@@ -13,7 +7,7 @@ footer{
 }
 
 .title-1{
-    background-color: #F4F5F0;
+    
     position: relative;
     top: 5%;
     /* left: 45%; */
@@ -37,7 +31,7 @@ footer{
 }
 
 textarea{
-    width: 100%;
+    width: 90%;
     height: 300px;
     padding: 10px;
     margin: 10px;
