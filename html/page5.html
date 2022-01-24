@@ -47,8 +47,8 @@
             </tr>
             <tr>
                 <td class="agreeagree">
-                <input type="checkbox" name="m5m1" value="11"> 가입에 동의하십니까?(필수)<br>
-                <input type="checkbox" name="m5m2" value="22"> 위치 정보 제공에 동의하십니까?(필수)<br>
+                <input type="checkbox" name="m5m1" value="11" required="required"> 가입에 동의하십니까?(필수)<br>
+                <input type="checkbox" name="m5m2" value="22" required="required"> 위치 정보 제공에 동의하십니까?(필수)<br>
                 <input type="checkbox" name="m5m3" value="11"> 프로모션 정보수신 동의(선택)?<br>
                 </td>
             </tr>
@@ -60,13 +60,13 @@
     </table>
     <hr>
     <table class="center" >
-        <tr><td>아이디 </td><td> <input name="m5m5" type="text" id="id"><br></td></tr>
-        <tr><td>비밀번호 </td><td> <input name="m5m6" type="password" id="pw"><br></td></tr>
-        <tr><td>비밀번호 재확인  </td><td> <input name="m5m7" type="password" id="pw2"><br></td></tr>
+        <tr><td>아이디 </td><td> <input name="m5m5" type="text" id="id" required="required"><br></td></tr>
+        <tr><td>비밀번호 </td><td> <input name="m5m6" type="password" id="pw" required="required"><br></td></tr>
+        <tr><td>비밀번호 재확인  </td><td> <input name="m5m7" type="password" id="pw2" required="required"><br></td></tr>
     </table>
 <hr>
     <table class= "center"  >
-        <tr><td>이름 </td><td>  <input type="text" name="m5m8" value="name"><br></td>
+        <tr><td>이름 (필수) </td><td>  <input type="text" name="m5m8" value="name" required="required"><br></td>
         <tr><td>이메일 </td><td> <input type="email" name="m5m9" value="email"><br></td></tr>
         <tr><td>생년월일 </td><td> <input type="date"><br></td></tr>
         <tr><td>성별 </td><td> <input type="radio" name="gender" value="woman"> woman
@@ -77,8 +77,8 @@
                 <input type="radio" name="call" value="skt"> skt
                 <input type="radio" name="call" value="lg"> lg</td></tr>
         <tr><td>
-        유입경로 :
-                <select name="where" multiple>
+        유입경로(필수) :
+                <select name="where" multiple required="required">
                     <option>지인추천</option>
                     <option>sns</option>
                     <option>광고</option>
